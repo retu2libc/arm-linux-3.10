@@ -4,7 +4,7 @@ I find myself writing this Dockerfile over and over again so I decided to throw 
 I'm going to assume you have `git`, `pip` and `docker` here.
 ### Setup
 ```
-git clone https://github.com/christheyankee/arm-linux-3.10.git
+git clone --recurse-submodules https://github.com/christheyankee/arm-linux-3.10.git
 pip install scuba
 cd arm-linux-3.10
 ```
