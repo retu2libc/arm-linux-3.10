@@ -6,4 +6,14 @@ I'm going to assume you have `git`, `pip` and `docker` here.
 ```
 git clone https://github.com/christheyankee/arm-linux-3.10.git
 pip install scuba
+cd arm-linux-3.10
+```
+### Build the Docker Image
+```
+docker build .
+```
+### Build Linux
+```
+scuba --image 3.10 make -C linux ARCH=arm defconfig
+scuba --image 3.10 make -C linux ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -j`nproc`
 ```
