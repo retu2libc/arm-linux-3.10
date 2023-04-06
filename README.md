@@ -10,7 +10,7 @@ cd arm-linux-3.10
 ```
 ### Build the Docker Image
 ```
-docker build .
+docker build . -t 3.10
 ```
 ### Build Linux
 ```
