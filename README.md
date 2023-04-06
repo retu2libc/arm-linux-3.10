@@ -1,5 +1,5 @@
 # arm-linux-3.10 Dockerfile
-I find myself writing this Dockerfile over and over again so I decided to throw it up here. It builds linux 3.10 for 32 bit arm hardware with hard float support.
+I find myself writing this Dockerfile over and over again so I decided to throw it up here. It builds linux 3.10 for 32 bit arm hardware with software float support.
 ## Steps To Compile
 I'm going to assume you have `git`, `pip` and `docker` here.
 ### Setup
